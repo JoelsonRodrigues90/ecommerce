@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+}
+.header{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 4px 4px #00000033;
+}
+.pagecontent{
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+}
+.pagecontent::-webkit-scrollbar{
+  display: none;
+}
+.footer{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 4px 4px 4px #00000033;
+}
+
+.cardItem{
+  margin: .5em;
+}
+.cardItemBadge{
+  margin: .5em;
+}
+.cardImage{
+  height: 150px !important;
+  object-fit: scale-down;
+}
+.cartIconHeader{
+  font-size: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
